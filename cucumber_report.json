@@ -1,0 +1,554 @@
+{
+  "gherkinDocuments": [
+    {
+      "type": "GherkinDocument",
+      "feature": {
+        "type": "Feature",
+        "tags": [],
+        "location": {
+          "line": 1,
+          "column": 1
+        },
+        "language": "en",
+        "keyword": "Feature",
+        "name": "Login",
+        "children": [
+          {
+            "type": "Scenario",
+            "tags": [],
+            "location": {
+              "line": 3,
+              "column": 3
+            },
+            "keyword": "Scenario",
+            "name": "Invalid login",
+            "steps": [
+              {
+                "type": "Step",
+                "location": {
+                  "line": 4,
+                  "column": 5
+                },
+                "keyword": "Given ",
+                "text": "I load Todo.ly page"
+              },
+              {
+                "type": "Step",
+                "location": {
+                  "line": 5,
+                  "column": 5
+                },
+                "keyword": "And ",
+                "text": "I click on Login button"
+              },
+              {
+                "type": "Step",
+                "location": {
+                  "line": 6,
+                  "column": 5
+                },
+                "keyword": "And ",
+                "text": "I introduce non-valid credentials in the login form"
+              },
+              {
+                "type": "Step",
+                "location": {
+                  "line": 7,
+                  "column": 5
+                },
+                "keyword": "And ",
+                "text": "I submit the login form"
+              },
+              {
+                "type": "Step",
+                "location": {
+                  "line": 8,
+                  "column": 5
+                },
+                "keyword": "Then ",
+                "text": "I should see an invalid credentials notification message"
+              },
+              {
+                "type": "Step",
+                "location": {
+                  "line": 9,
+                  "column": 5
+                },
+                "keyword": "Then ",
+                "text": "I close the browser"
+              }
+            ]
+          },
+          {
+            "type": "Scenario",
+            "tags": [],
+            "location": {
+              "line": 11,
+              "column": 3
+            },
+            "keyword": "Scenario",
+            "name": "Success login",
+            "steps": [
+              {
+                "type": "Step",
+                "location": {
+                  "line": 12,
+                  "column": 5
+                },
+                "keyword": "Given ",
+                "text": "I load Todo.ly page"
+              },
+              {
+                "type": "Step",
+                "location": {
+                  "line": 13,
+                  "column": 5
+                },
+                "keyword": "And ",
+                "text": "I click on Login button"
+              },
+              {
+                "type": "Step",
+                "location": {
+                  "line": 14,
+                  "column": 5
+                },
+                "keyword": "And ",
+                "text": "I introduce valid credentials in the login form"
+              },
+              {
+                "type": "Step",
+                "location": {
+                  "line": 15,
+                  "column": 5
+                },
+                "keyword": "And ",
+                "text": "I submit the login form"
+              },
+              {
+                "type": "Step",
+                "location": {
+                  "line": 16,
+                  "column": 5
+                },
+                "keyword": "Then ",
+                "text": "I should see lading page"
+              },
+              {
+                "type": "Step",
+                "location": {
+                  "line": 17,
+                  "column": 5
+                },
+                "keyword": "Then ",
+                "text": "I close the browser"
+              }
+            ]
+          }
+        ]
+      },
+      "comments": [],
+      "uri": "features/ui/login.feature"
+    }
+  ],
+  "pickles": [
+    {
+      "tags": [],
+      "name": "Invalid login",
+      "language": "en",
+      "locations": [
+        {
+          "line": 3,
+          "column": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "I load Todo.ly page",
+          "arguments": [],
+          "locations": [
+            {
+              "line": 4,
+              "column": 11
+            }
+          ]
+        },
+        {
+          "text": "I click on Login button",
+          "arguments": [],
+          "locations": [
+            {
+              "line": 5,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "text": "I introduce non-valid credentials in the login form",
+          "arguments": [],
+          "locations": [
+            {
+              "line": 6,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "text": "I submit the login form",
+          "arguments": [],
+          "locations": [
+            {
+              "line": 7,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "text": "I should see an invalid credentials notification message",
+          "arguments": [],
+          "locations": [
+            {
+              "line": 8,
+              "column": 10
+            }
+          ]
+        },
+        {
+          "text": "I close the browser",
+          "arguments": [],
+          "locations": [
+            {
+              "line": 9,
+              "column": 10
+            }
+          ]
+        }
+      ],
+      "uri": "features/ui/login.feature"
+    },
+    {
+      "tags": [],
+      "name": "Success login",
+      "language": "en",
+      "locations": [
+        {
+          "line": 11,
+          "column": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "I load Todo.ly page",
+          "arguments": [],
+          "locations": [
+            {
+              "line": 12,
+              "column": 11
+            }
+          ]
+        },
+        {
+          "text": "I click on Login button",
+          "arguments": [],
+          "locations": [
+            {
+              "line": 13,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "text": "I introduce valid credentials in the login form",
+          "arguments": [],
+          "locations": [
+            {
+              "line": 14,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "text": "I submit the login form",
+          "arguments": [],
+          "locations": [
+            {
+              "line": 15,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "text": "I should see lading page",
+          "arguments": [],
+          "locations": [
+            {
+              "line": 16,
+              "column": 10
+            }
+          ]
+        },
+        {
+          "text": "I close the browser",
+          "arguments": [],
+          "locations": [
+            {
+              "line": 17,
+              "column": 10
+            }
+          ]
+        }
+      ],
+      "uri": "features/ui/login.feature"
+    }
+  ],
+  "testCaseAttempts": [
+    {
+      "testCase": {
+        "attemptNumber": 1,
+        "name": "Invalid login",
+        "result": {
+          "duration": 5769000000,
+          "status": "passed"
+        },
+        "sourceLocation": {
+          "uri": "features/ui/login.feature",
+          "line": 3
+        }
+      },
+      "testSteps": [
+        {
+          "attachments": [],
+          "result": {
+            "duration": 4563000000,
+            "status": "passed"
+          },
+          "actionLocation": {
+            "uri": "features/step_definitions/ui.js",
+            "line": 8
+          },
+          "keyword": "Given ",
+          "sourceLocation": {
+            "uri": "features/ui/login.feature",
+            "line": 4
+          },
+          "text": "I load Todo.ly page",
+          "arguments": []
+        },
+        {
+          "attachments": [],
+          "result": {
+            "duration": 305000000,
+            "status": "passed"
+          },
+          "actionLocation": {
+            "uri": "features/step_definitions/ui.js",
+            "line": 12
+          },
+          "keyword": "And ",
+          "sourceLocation": {
+            "uri": "features/ui/login.feature",
+            "line": 5
+          },
+          "text": "I click on Login button",
+          "arguments": []
+        },
+        {
+          "attachments": [],
+          "result": {
+            "duration": 200000000,
+            "status": "passed"
+          },
+          "actionLocation": {
+            "uri": "features/step_definitions/ui.js",
+            "line": 16
+          },
+          "keyword": "And ",
+          "sourceLocation": {
+            "uri": "features/ui/login.feature",
+            "line": 6
+          },
+          "text": "I introduce non-valid credentials in the login form",
+          "arguments": []
+        },
+        {
+          "attachments": [],
+          "result": {
+            "duration": 592000000,
+            "status": "passed"
+          },
+          "actionLocation": {
+            "uri": "features/step_definitions/ui.js",
+            "line": 24
+          },
+          "keyword": "And ",
+          "sourceLocation": {
+            "uri": "features/ui/login.feature",
+            "line": 7
+          },
+          "text": "I submit the login form",
+          "arguments": []
+        },
+        {
+          "attachments": [],
+          "result": {
+            "duration": 32000000,
+            "status": "passed"
+          },
+          "actionLocation": {
+            "uri": "features/step_definitions/ui.js",
+            "line": 28
+          },
+          "keyword": "Then ",
+          "sourceLocation": {
+            "uri": "features/ui/login.feature",
+            "line": 8
+          },
+          "text": "I should see an invalid credentials notification message",
+          "arguments": []
+        },
+        {
+          "attachments": [],
+          "result": {
+            "duration": 77000000,
+            "status": "passed"
+          },
+          "actionLocation": {
+            "uri": "features/step_definitions/ui.js",
+            "line": 38
+          },
+          "keyword": "Then ",
+          "sourceLocation": {
+            "uri": "features/ui/login.feature",
+            "line": 9
+          },
+          "text": "I close the browser",
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "testCase": {
+        "attemptNumber": 1,
+        "name": "Success login",
+        "result": {
+          "duration": 6973000000,
+          "status": "passed"
+        },
+        "sourceLocation": {
+          "uri": "features/ui/login.feature",
+          "line": 11
+        }
+      },
+      "testSteps": [
+        {
+          "attachments": [],
+          "result": {
+            "duration": 4113000000,
+            "status": "passed"
+          },
+          "actionLocation": {
+            "uri": "features/step_definitions/ui.js",
+            "line": 8
+          },
+          "keyword": "Given ",
+          "sourceLocation": {
+            "uri": "features/ui/login.feature",
+            "line": 12
+          },
+          "text": "I load Todo.ly page",
+          "arguments": []
+        },
+        {
+          "attachments": [],
+          "result": {
+            "duration": 289000000,
+            "status": "passed"
+          },
+          "actionLocation": {
+            "uri": "features/step_definitions/ui.js",
+            "line": 12
+          },
+          "keyword": "And ",
+          "sourceLocation": {
+            "uri": "features/ui/login.feature",
+            "line": 13
+          },
+          "text": "I click on Login button",
+          "arguments": []
+        },
+        {
+          "attachments": [],
+          "result": {
+            "duration": 212000000,
+            "status": "passed"
+          },
+          "actionLocation": {
+            "uri": "features/step_definitions/ui.js",
+            "line": 42
+          },
+          "keyword": "And ",
+          "sourceLocation": {
+            "uri": "features/ui/login.feature",
+            "line": 14
+          },
+          "text": "I introduce valid credentials in the login form",
+          "arguments": []
+        },
+        {
+          "attachments": [],
+          "result": {
+            "duration": 2252000000,
+            "status": "passed"
+          },
+          "actionLocation": {
+            "uri": "features/step_definitions/ui.js",
+            "line": 24
+          },
+          "keyword": "And ",
+          "sourceLocation": {
+            "uri": "features/ui/login.feature",
+            "line": 15
+          },
+          "text": "I submit the login form",
+          "arguments": []
+        },
+        {
+          "attachments": [],
+          "result": {
+            "duration": 30000000,
+            "status": "passed"
+          },
+          "actionLocation": {
+            "uri": "features/step_definitions/ui.js",
+            "line": 50
+          },
+          "keyword": "Then ",
+          "sourceLocation": {
+            "uri": "features/ui/login.feature",
+            "line": 16
+          },
+          "text": "I should see lading page",
+          "arguments": []
+        },
+        {
+          "attachments": [],
+          "result": {
+            "duration": 77000000,
+            "status": "passed"
+          },
+          "actionLocation": {
+            "uri": "features/step_definitions/ui.js",
+            "line": 38
+          },
+          "keyword": "Then ",
+          "sourceLocation": {
+            "uri": "features/ui/login.feature",
+            "line": 17
+          },
+          "text": "I close the browser",
+          "arguments": []
+        }
+      ]
+    }
+  ]
+}
